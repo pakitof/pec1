@@ -14,12 +14,16 @@
         <title>UOC Boilerplate</title>
     </head>
     <body>
-      <i class="fa-solid fa-check"></i>
-      <i class="fa-solid fa-user"></i>
-      <i class="fa-user"></i>
-      <i class="fas fa-check"></i>
-      <i class="fas fa-user"></i>
-      <i class="fas fa-camera"></i>
+        <div class="main-wrapper main-wrapper--disabled">
+            <include src="./views/header.html"></include>
+        </div>
 
+        <div class="main-wrapper">
+            <include src="./views/main.html"></include>
+        </div>
+
+        <div class="main-wrapper main-wrapper--disabled">
+            <include src="./views/footer.html"></include>
+        </div>
     </body>
 </html>

@@ -1,0 +1,26 @@
+.main-container {
+  &__header {
+    height: 500px;
+    margin-bottom: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("../images/madrid-header.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &__h1 {
+    font-size: 100px;
+    color: #fff;
+    opacity: 0.8;
+    letter-spacing: 20px;
+
+    @media (max-width: 600px) {
+      font-size: 50px;
+    }
+  }
+}

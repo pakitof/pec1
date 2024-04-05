@@ -1,0 +1,19 @@
+.main-container {
+  &__article {
+    padding: 23px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 30px;
+
+    @media (max-width: 600px) {
+      align-items: center;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__img {
+    width: 300px;
+  }
+}
